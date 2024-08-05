@@ -25,9 +25,12 @@ This project is a Streamlit web application that predicts handwritten digits fro
 2. Navigate to the project directory:
     ```sh
     cd MNIST-Digit-Prediction/mnist_digit_prediction
-3. Install the required dependencies:
+3. Install dataset from the below website into the same directory:
+   ```sh
+   https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
+4. Install the required dependencies:
    ```sh
    pip install -r requirements.txt
-4. Run the Streamlit app:
+5. Run the Streamlit app:
    ```sh
    streamlit run app.py
